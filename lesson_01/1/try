@@ -1,0 +1,18 @@
+age = 68
+
+print(age < 18)
+
+if (age < 18):
+    print("ok")
+
+else:
+    print("dont ok")  
+
+    rate = input("оцените работу оператора от 1 до 5:")
+rate_as_number = int(rate)
+if(rate <1):
+    rate = 1
+
+if(rate > 5):
+    rate = 5
+
